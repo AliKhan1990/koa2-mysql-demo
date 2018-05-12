@@ -1,0 +1,11 @@
+console.log('---------WWW/BIN---------')
+// 实例化Koa
+const Koa = require('koa')
+const app = new Koa()
+
+// 引入app.js
+const engine = require('./../app.js')
+engine(app)
+
+// 监听端口
+app.listen(7000)

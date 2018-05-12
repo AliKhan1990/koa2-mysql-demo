@@ -1,0 +1,7 @@
+{
+  "host": "192.168.3.37",
+  "user": "root",
+  "password": "root",
+  "database": "official_website_cms",
+  "port": "3306"
+}
